@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_gaA_QBF4Eee0FtCnrseAEA" dataPackage="_gaA_XxF4Eee0FtCnrseAEA" DatabaseType="HBase" Port="2181" Username="" ServerName="hadoop0.sunnydale4.com" SID="HBase" DbmsId="mysql_id" ProductId="HBASE">
+    <parameters xmi:id="_gaA_QRF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
+    <parameters xmi:id="_gaA_QhF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_gaA_QxF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="hadoop0.sunnydale4.com:8030"/>
+    <parameters xmi:id="_gaA_RBF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_USEKEYTAB" value="false"/>
+    <parameters xmi:id="_gaA_RRF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+    <parameters xmi:id="_gaA_RhF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_REGIONSERVERPRINCIPAL" value="hbase/_HOST@HADOOPSS.SUNNYDALE4.COM"/>
+    <parameters xmi:id="_gaA_RxF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://hadoop0.sunnydale4.com:8020"/>
+    <parameters xmi:id="_gaA_SBF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_USERNAME" value=""/>
+    <parameters xmi:id="_gaA_SRF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_B50zYBF4Eee0FtCnrseAEA"/>
+    <parameters xmi:id="_gaA_ShF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@HADOOPSS.SUNNYDALE4.COM"/>
+    <parameters xmi:id="_gaA_SxF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_8"/>
+    <parameters xmi:id="_gaA_TBF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="hadoop0.sunnydale4.com:8032"/>
+    <parameters xmi:id="_gaA_TRF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="hadoop0.sunnydale4.com:10020"/>
+    <parameters xmi:id="_gaA_ThF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_8"/>
+    <parameters xmi:id="_gaA_TxF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_gaA_UBF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_DB_SERVER" value="hadoop0.sunnydale4.com"/>
+    <parameters xmi:id="_gaA_URF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
+    <parameters xmi:id="_gaA_UhF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_gaA_UxF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@HADOOPSS.SUNNYDALE4.COM"/>
+    <parameters xmi:id="_gaA_VBF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_gaA_VRF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDH5_8"/>
+    <parameters xmi:id="_gaA_VhF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_gaA_VxF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_MASTERPRINCIPAL" value="hbase/_HOST@HADOOPSS.SUNNYDALE4.COM"/>
+    <parameters xmi:id="_gaA_WBF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_USE_KRB" value="true"/>
+    <parameters xmi:id="_gaA_WRF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_gaA_WhF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+    <parameters xmi:id="_gaA_WxF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@HADOOPSS.SUNNYDALE4.COM"/>
+    <parameters xmi:id="_gaA_XBF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
+    <parameters xmi:id="_gaA_XRF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_gaA_XhF4Eee0FtCnrseAEA" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_gaA_XxF4Eee0FtCnrseAEA" name="HBase" dataManager="_gaA_QBF4Eee0FtCnrseAEA"/>
+</xmi:XMI>
